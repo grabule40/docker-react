@@ -1,4 +1,4 @@
-language: generic
+language: generic 
 sudo: required
 
 services:
@@ -6,6 +6,6 @@ services:
 
 before_install:
     - docker build -t bubooo-droid/docker-react -f Dockerfile.dev .
-    
+
 script:
     - docker run -e CI=true bubooo-droid/docker-react npm run test
