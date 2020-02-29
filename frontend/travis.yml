@@ -6,4 +6,4 @@ before_install:
     - docker build -t bubooo-droid/docer-react -f Dockerfile.dev .
 
 script:
-    - docker run -e CI=true bubooo-droid/docker-react npm run test -- --coverage
+    - docker run -e CI=true bubooo-droid/docker-react npm run test
