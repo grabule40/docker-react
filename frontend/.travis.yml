@@ -1,4 +1,3 @@
-#test
 language: generic
 sudo: required
 services:
